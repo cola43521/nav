@@ -1,4 +1,4 @@
-let pathToNavWebsites = "./modules/menus/menus.json";
+// let pathToNavWebsites = "./modules/menus/menus.json";
 // Path to the JSON file of the navigation websites.
 
 let websites = {
