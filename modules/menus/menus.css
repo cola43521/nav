@@ -11,7 +11,7 @@
 }
 
 
-.menu-link {
+.menus-link {
     display: block;
     padding: 5px 10px;
     /* color: #007bff; */
@@ -23,7 +23,7 @@
     /* background-color: rgba(0, 0,0, 0.1); */
 }
 
-.menu-link:hover {
+.menus-link:hover {
     /* background-color: #f0f0f0; */
     background-color: rgba(0, 0,0, 0.3);
 }
