@@ -179,7 +179,7 @@ function buildMenus(websites) {
         if (websites.hasOwnProperty(category)) {
             const links = websites[category];
             
-            var categoryHeader = window.document.createElement('span');
+            var categoryHeader = window.document.createElement('div');
             categoryHeader.textContent = category;
             categoryHeader.classList.add("menus-category");
             // Create a title and add a style category for the title.
@@ -188,7 +188,7 @@ function buildMenus(websites) {
             subMenuDiv.className = 'subMenu';
             subMenuDiv.appendChild(categoryHeader);
 
-            links.array.forEach(element => {
+            links.forEach(element => {
                 var a = window.document.createElement('a');
                 a.href = element.href;
                 a.textContent = element.content;
