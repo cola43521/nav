@@ -171,6 +171,8 @@ let websites = {
 
 }
 
+buildMenus(websites);
+
 function buildMenus(websites) {
     let menusDiv = window.document.getElementById("menus");
     for (const category in websites) {
