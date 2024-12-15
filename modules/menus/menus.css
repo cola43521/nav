@@ -1,0 +1,29 @@
+#menus {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.menus-category {
+    font-size: 1.2em;
+    /* color: #333; */
+    color: rgb(242, 8, 94);
+    margin-bottom: 10px;
+    /* background-color: rgba(0, 0,0, 0.2); */
+}
+
+
+.menu-link {
+    display: block;
+    padding: 5px 10px;
+    /* color: #007bff; */
+    text-decoration: none;
+    font-weight: 700;
+    font-feature-settings: "blws";
+    color: rgb(242, 62, 132);
+    /* transition: background-color 0.3s ease; */
+    /* background-color: rgba(0, 0,0, 0.1); */
+}
+
+.menu-link:hover {
+    /* background-color: #f0f0f0; */
+    background-color: rgba(0, 0,0, 0.3);
+}
